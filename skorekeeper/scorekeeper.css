@@ -1,0 +1,15 @@
+h1{
+	font-family: 'Inconsolata', monospace;
+}
+
+button{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.winner{
+	color: green;
+}

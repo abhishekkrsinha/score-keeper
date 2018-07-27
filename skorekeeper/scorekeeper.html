@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="scorekeeper.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:700|Montserrat|Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<h1><span id="p1display">0</span> to <span id="p2display">0</span></h1>
+
+	<p>Playing to : <span id ="totalpoints">5</span></p>
+
+	<input type="number">
+	<button id="p1">Player 1</button>
+	<button id="p2">Player 2</button>
+	<button id="reset"> Reset </button>
+
+
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "scorekeeper.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
+</body>
+</html>
